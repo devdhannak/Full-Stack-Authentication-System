@@ -78,17 +78,16 @@ cd backend
 spring.datasource.url=jdbc:mysql://localhost:3306/authdb
 spring.datasource.username=root
 spring.datasource.password=yourpassword
-
 jwt.secret=your_secret_key
 app.auth.frontend.success-redirect=http://localhost:5173/oauth/success
 
-Backend runs on:
+## Backend runs on:
 http://localhost:8083
 
-Frontend Setup:
+## Frontend Setup:
 cd frontend
 npm install
 npm run dev
 
-Frontend runs on:
+## Frontend runs on:
 http://localhost:5173
